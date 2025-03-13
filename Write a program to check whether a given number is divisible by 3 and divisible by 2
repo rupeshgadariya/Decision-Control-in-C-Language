@@ -1,0 +1,13 @@
+// Write a program to check whether a given number is divisible by 3 and divisible by 2
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x;
+        printf("Enter a number ");
+        scanf("%d",&x);
+        printf( (x%3==0 && x%2==0)? "YES divisible by 3 and 2":"NOT divisible by 3 and 2");
+    getch();
+}        
