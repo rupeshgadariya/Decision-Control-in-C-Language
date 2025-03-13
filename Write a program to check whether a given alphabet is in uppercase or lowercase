@@ -1,0 +1,19 @@
+/*  Write a program to check whether a given alphabet is in uppercase or lowercase. */
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        char ch;
+        printf("Enter only alphabet ");
+        scanf("%c",&ch);
+      
+             if (64<ch && ch<91)                        
+               printf(" ' %c ' is uppercase alphabet",ch);
+             else if (96<ch && ch<123)                 
+               printf("' %c ' is lowercase alphabet",ch);
+            else 
+               printf("' %c ' is NOT alphabet",ch);    
+    getch();
+}
