@@ -1,0 +1,14 @@
+// Write a program to check whether a given number is positive, negative or zero
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x;
+        printf("Enter a number ");
+        scanf("%d",&x);
+        printf( x>0? "Number is Positive" : x<0?"Number is Negative" : "Number is Zero" );
+        
+    getch();
+}
