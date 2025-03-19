@@ -1,0 +1,23 @@
+/* Write a program which takes the month number as an input and display number of 
+days in that month*/
+ #include<stdio.h>
+ #include<conio.h>
+ 
+    void main()
+ {
+        int x; 
+
+            printf("Enter month number ");
+            scanf("%d",&x);
+
+         if (x==4 || x==6 || x==9 || x==11)
+          printf("30 Days ");
+         else if (x==2)
+          printf("28 or 29 Days");
+         else if (x<13)
+          printf("31 Days");
+         else printf("ENTER THE VALID NUMBER");
+         
+        
+    getch();
+ }
