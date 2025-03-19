@@ -1,0 +1,22 @@
+/* Write a program to check whether a given character is an alphabet (uppercase), 
+an alphabet (lower case), a digit or a special character */
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{    
+     char ch;
+        printf("\nEnter anything ");
+        scanf("%c",&ch);
+
+       if (ch>= 48 && ch<= 57)
+         printf("Digit");
+       else if (ch>= 65 && ch<= 90)
+        printf("Uppercase Alphabet");
+      else if (ch>= 97 && ch<= 122)
+        printf("Lowercase Alphabet"); 
+      else  printf("\nSpecial Character");
+      
+    getch();
+}
